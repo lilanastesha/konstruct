@@ -1,3 +1,11 @@
 body {
   font-family: $font-main;
+  max-width: 1440px;
+  color: $main;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 941px;
+  margin: 0 auto;
 }

@@ -1,0 +1,157 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  max-width: 1440px;
+  color: #48555B;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 941px;
+  margin: 0 auto;
+}
+
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+.header {
+  background-image: url("/img/header-bg.png");
+  background-position: center;
+}
+.header__logo {
+  padding-top: 41px;
+  display: block;
+  margin: 0 auto;
+}
+.header__heading {
+  color: #fff;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  letter-spacing: 5.709px;
+  padding-top: 304px;
+}
+.header__info {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.header__scroll {
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3.7px;
+  padding-top: 213px;
+  padding-bottom: 71px;
+}
+
+.nav {
+  border-bottom: 1px solid #E6E6E6;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+.nav__list {
+  display: flex;
+  gap: 30px;
+}
+.nav__item {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.091px;
+}
+.nav__link {
+  color: #48555B;
+}
+.nav__link--accent {
+  color: #00A4E5;
+  font-weight: 700;
+}

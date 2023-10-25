@@ -1,0 +1,43 @@
+.header {
+  background-image: url('/img/header-bg.png');
+  background-position: center;
+
+  &__container {
+    
+  }
+
+  &__logo {
+    padding-top: 41px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__heading {
+    color: $white;
+    text-align: center;
+    font-family: $font-header;
+    font-size: 60px;
+    letter-spacing: 5.709px;
+
+    padding-top: 304px;
+  }
+
+  &__info {
+    color:  $white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &__scroll {
+    color:  $white;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 3.7px;
+
+    padding-top: 213px;
+    padding-bottom: 71px;
+  }
+
+}

@@ -1,0 +1,33 @@
+.nav {
+  border-bottom: 1px solid $border;
+  
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+  }
+
+  &__logo {
+  }
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.091px;
+  }
+
+  &__link {
+    color: $main;
+
+    &--accent {
+      color: $accent;
+      font-weight: 700;
+    }
+  }
+}
