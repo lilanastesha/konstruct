@@ -1,0 +1,73 @@
+.ourCapabilities {
+
+  &__container {
+    margin-bottom: 115px;
+  }
+  
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.306px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 76px;
+
+    &:after {
+      content:'';
+      position: absolute;
+      width: 50px;
+      bottom: 0;
+      height: 2px;
+      left: 13%;
+      background-color: $accent;
+      margin: 0px 0px 0px -25px;
+    }
+  }
+
+  &__pharagraph {
+    font-size: 11px;
+    line-height: 19px; 
+    letter-spacing: 0.2px;
+    max-width: 405.404px;
+  }
+
+  &__btn {
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card {
+    max-width: 295px;
+    max-height: 330px;
+    border: 1px solid #E6E6E6;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+
+  &__cardImage {
+    margin: 38px auto 25px 0;
+  }
+
+  &__cardHeading {
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: 0.427px;
+  }
+
+  &__cardContent {
+    margin-bottom: 39px;
+    font-size: 13px;
+    line-height: 23px; 
+    letter-spacing: 0.188px;
+  }
+}

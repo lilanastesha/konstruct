@@ -10,3 +10,16 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.btn {
+  color: $white;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+
+  width: 150px;
+  height: 40px;
+  background-color: $accent;
+
+}
