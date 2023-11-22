@@ -241,6 +241,58 @@ legend {
   letter-spacing: 0.188px;
 }
 
+.wantBuild {
+  background-image: url(/img/footer-bg.png);
+  background-position: center;
+}
+.wantBuild__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 497px;
+}
+.wantBuild__heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  max-width: 315px;
+  margin-top: 90px;
+}
+.wantBuild__btn {
+  margin-top: 16px;
+}
+
+.signup {
+  background-color: #171819;
+  height: 100px;
+}
+.signup__container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.signup__heading {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.846px;
+  margin-right: 70px;
+}
+.signup__form {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+.signup__input {
+  width: 250px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #E6E6E6;
+  padding-left: 16px;
+}
 .header {
   background-image: url("/img/header-bg.png");
   background-position: center;

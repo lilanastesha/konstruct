@@ -1,0 +1,36 @@
+.signup {
+  background-color: $footer-dark;
+  height: 100px;
+
+  &__container { 
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  &__heading {
+    color: $white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.846px;
+    margin-right: 70px;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    width: 400px;
+  }
+
+  &__input {
+    width: 250px;
+    height: 40px;
+    background-color: $white;
+    border: 1px solid $border;
+    padding-left: 16px;
+  }
+  
+  &__btn {
+  }
+}

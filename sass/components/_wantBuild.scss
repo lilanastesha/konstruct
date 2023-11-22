@@ -1,0 +1,26 @@
+.wantBuild {
+  background-image: url(/img/footer-bg.png);
+  background-position: center;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 497px;
+  }
+  
+  &__heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px; 
+    letter-spacing: 0.15px;
+    max-width: 315px;
+    margin-top: 90px;
+  }
+
+  &__btn {
+    margin-top: 16px;
+  }
+}
+

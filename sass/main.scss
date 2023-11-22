@@ -4,8 +4,10 @@
 @import "base/base";
 @import "base/reset";
 
-@import "components/_ourStory";
+@import "components/ourStory";
 @import "components/ourCapabilities";
+@import "components/wantBuild";
+@import "components/signup";
 
 @import "layout/footer";
 @import "layout/header";
