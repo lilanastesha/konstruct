@@ -1,0 +1,73 @@
+.footer {
+  background-color: $footer;
+  color: $white;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__company {
+
+  }
+
+  &__heading {
+    font-size: 11px;
+    letter-spacing: 0.846px;
+    margin-top: 42px;
+    margin-bottom: 19px;
+  }
+
+  &__content {
+    font-size: 11px;
+    line-height: 19px; 
+    letter-spacing: 0.85px;
+    margin: 15px 0 50px 0;
+    width: 250px;
+  }
+
+  &__links {
+  }
+
+  &__listContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 262px;
+  }
+
+  &__list {
+  }
+
+  &__item {
+  }
+
+  &__link {
+    color: $white;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 25px; 
+    letter-spacing: 0.846px;
+  }
+
+  &__contact {
+  }
+
+  &__contactContent {
+    width: 141px;
+    font-size: 11px;
+    line-height: 16px; 
+    letter-spacing: 0.846px;
+  }
+
+  &__contactContent a {
+    color: $white;
+  }
+
+  &__phone {
+    display: inline-block;
+    padding: 20px 0;
+  }
+
+  &__socialMedia {
+  }
+}

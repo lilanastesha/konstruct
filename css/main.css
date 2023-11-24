@@ -293,6 +293,52 @@ legend {
   border: 1px solid #E6E6E6;
   padding-left: 16px;
 }
+.footer {
+  background-color: #141A20;
+  color: #fff;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__heading {
+  font-size: 11px;
+  letter-spacing: 0.846px;
+  margin-top: 42px;
+  margin-bottom: 19px;
+}
+.footer__content {
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  margin: 15px 0 50px 0;
+  width: 250px;
+}
+.footer__listContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 262px;
+}
+.footer__link {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0.846px;
+}
+.footer__contactContent {
+  width: 141px;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846px;
+}
+.footer__contactContent a {
+  color: #fff;
+}
+.footer__phone {
+  display: inline-block;
+  padding: 20px 0;
+}
 .header {
   background-image: url("/img/header-bg.png");
   background-position: center;
