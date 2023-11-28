@@ -1,6 +1,5 @@
 body {
   font-family: "Open Sans", sans-serif;
-  max-width: 1440px;
   color: #48555B;
   margin: 0 auto;
 }
@@ -20,6 +19,16 @@ body {
   width: 150px;
   height: 40px;
   background-color: #00A4E5;
+  transition: all 0.3s;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Reset and base styles  */
@@ -244,6 +253,8 @@ legend {
 .wantBuild {
   background-image: url(/img/footer-bg.png);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .wantBuild__container {
   display: flex;
@@ -293,6 +304,35 @@ legend {
   border: 1px solid #E6E6E6;
   padding-left: 16px;
 }
+.signup__btn {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  width: 150px;
+  height: 40px;
+  background-color: #00A4E5;
+  transition: all 0.3s;
+}
+.signup__btn:hover {
+  opacity: 0.8;
+}
+.signup__btn:active {
+  transform: translateY(1px);
+}
+
+.copyright {
+  background-color: #171819;
+}
+.copyright__content {
+  text-align: center;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 0.846px;
+  padding: 23px 0;
+}
+
 .footer {
   background-color: #141A20;
   color: #fff;
@@ -339,9 +379,18 @@ legend {
   display: inline-block;
   padding: 20px 0;
 }
+.footer__socialMedia {
+  display: flex;
+  width: 87px;
+  justify-content: space-between;
+  margin-top: 71px;
+}
+
 .header {
   background-image: url("/img/header-bg.png");
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header__logo {
   padding-top: 41px;

@@ -32,5 +32,25 @@
   }
   
   &__btn {
+    color: $white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+    width: 150px;
+    height: 40px;
+    background-color: $accent;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    
+
+    &:hover {
+      opacity: 0.8;
+    }  
+    &:active {
+      transform: translateY(1px);
+    }
   }
 }
