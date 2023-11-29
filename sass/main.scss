@@ -1,8 +1,7 @@
-@import "abstracts/media";
+@import "base/reset";
 @import "abstracts/variables";
 
 @import "base/base";
-@import "base/reset";
 
 @import "components/ourStory";
 @import "components/ourCapabilities";
@@ -13,3 +12,5 @@
 @import "layout/footer";
 @import "layout/header";
 @import "layout/navigation";
+
+@import "abstracts/media";

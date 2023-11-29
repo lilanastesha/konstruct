@@ -1,0 +1,175 @@
+@media (max-width: 990px) {
+  .header__heading {
+    padding-top: 210px;
+    font-size: 58px;
+  }
+
+  .header__info {
+    font-size: 15px;
+  }
+
+  .header__scroll {
+    padding-top: 152px;
+  }
+
+  .ourStory__heading {
+    font-size: 16px;
+  }
+
+  .ourStory__heading2 {
+    font-size: 18px;
+  }
+
+  .ourStory__pharagraph {
+    width: 301px;
+    font-size: 11px;
+  }
+
+  .ourStory__card {
+    width: 130px;
+    height: 220px;
+    margin-right: 10px;
+  }
+
+  .ourStory__info {
+    max-width: 360px;
+  }
+
+  .btn {
+    font-size: 12px;
+    width: 140px;
+    height: 35px;
+  }
+
+  .ourCapabilities__pharagraph {
+    max-width: 386px;
+  }
+
+  .ourCapabilities__card:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .ourCapabilities__cardHeading {
+    font-size: 12px;
+  }
+
+  .ourCapabilities__cardContent {
+    font-size: 11px;
+  }
+
+  .ourCapabilities__container {
+    margin-bottom: 48px;
+  }
+
+  .ourCapabilities__heading {
+    font-size: 16px;
+  }
+
+  .wantBuild__heading {
+    font-size: 28px;
+  }
+
+  .signup__btn {
+    font-size: 12px;
+    width: 140px;
+    height: 35px; 
+  }
+
+  .signup__input {
+    height: 35px;
+  }
+
+  .signup__heading {
+    font-size: 21px;
+  }
+
+  .footer__content {
+    width: 217px;
+  }
+}
+
+@media (max-width: 820px) {
+  .header__heading {
+    font-size: 56px;
+  }
+
+  .ourStory__container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .ourStory__heading2 {
+    font-size: 16px;
+  }
+
+  .ourStory__pharagraph {
+    width: 280px;
+    }
+
+  .ourStory__info {
+    margin-top: 55px;
+  }
+
+  .ourStory__card {
+    font-size: 21px;
+  }
+
+  .ourStory__card {
+    width: 125px;
+    height: 210px;
+  }
+
+  .ourCapabilities__pharagraph {
+    max-width: 370px;
+  }
+
+  .ourCapabilities__cardImage {
+    margin: 25px auto 25px 0;
+  }
+
+  .ourCapabilities__cardHeading {
+    font-size: 11px;
+  }
+
+  .ourCapabilities__cardContent {
+    font-size: 10px;
+  }
+
+  .wantBuild__heading {
+    margin-top: 80px;
+    font-size: 25px;
+  }
+
+  .wantBuild__container {
+    height: 455px;
+  }
+
+  .signup__heading {
+    font-size: 20px;
+  }
+
+  .footer__link {
+    font-size: 10px;
+  }
+
+  .footer__content {
+    width: 210px;
+  }
+
+  .footer__listContainer {
+    width: 242px;
+  }
+
+  .footer__socialMedia {
+    width: 37px;
+    height: 100px;
+    flex-direction: column;
+  }
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
