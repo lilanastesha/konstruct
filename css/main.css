@@ -182,13 +182,13 @@ body {
   color: #fff;
 }
 .ourStory__card-wePlan {
-  background-image: url(/img/we-plan.png);
+  background-image: url(img/we-plan.png);
 }
 .ourStory__card-weManage {
-  background-image: url(/img/we-manage.png);
+  background-image: url(img/we-manage.png);
 }
 .ourStory__card-weBuild {
-  background-image: url(/img/we-build.png);
+  background-image: url(img/we-build.png);
 }
 
 .ourCapabilities__container {
@@ -251,7 +251,7 @@ body {
 }
 
 .wantBuild {
-  background-image: url(/img/footer-bg.png);
+  background-image: url(img/footer-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -387,7 +387,7 @@ body {
 }
 
 .header {
-  background-image: url("/img/header-bg.png");
+  background-image: url("img/header-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
